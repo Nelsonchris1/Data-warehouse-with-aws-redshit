@@ -53,7 +53,7 @@ Dimension Tables:
 
 ## Project Template
 <ul>
-    <li>`create_table.py` is where the fact and dimension tables for the star schema is created in Redshift.</li>
+    <li>***create_table.py*** is where the fact and dimension tables for the star schema is created in Redshift.</li>
     <li>`etl.py` is where data is loaded from S3 into staging tables on Redshift and then process that data into your analytics tables on Redshift.     </li>
     <li>`sql_queries.py` is where the SQL statements were defined, which will be imported into the two other files above (`create_table, etl.py`).</li>
     <li>`redshift_cluster.py` is where the redshift cluster and iam_role were created and deleted after use</li>
